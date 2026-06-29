@@ -1,0 +1,48 @@
+{
+  "news": [
+    {
+      "id": 1,
+      "title": "Breakthrough in Poultry Nutrition",
+      "excerpt": "New research shows improved feed formulations can boost growth rates by 15%...",
+      "content": "Full article content goes here...",
+      "category": "Research",
+      "date": "2025-07-15"
+    },
+    {
+      "id": 2,
+      "title": "Annual Poultry Conference Announced",
+      "excerpt": "Join industry leaders this September for the largest poultry event of the year...",
+      "content": "Full article content goes here...",
+      "category": "Research",
+      "date": "2025-07-15"
+    },
+    {
+      "id": 3,
+      "title": "Annual Poultry Conference Announced",
+      "excerpt": "Join industry leaders this September for the largest poultry event of the year...",
+      "content": "Full article content goes here...",
+      "category": "Event",
+      "date": "2025-07-20"
+    }
+
+  ],
+  "events": [
+    {
+      "id": 1,
+      "title": "Poultry Health Workshop",
+      "date": "2025-08-10",
+      "time": "9:00 AM - 4:00 PM",
+      "location": "Arid University Auditorium",
+      "description": "Learn about latest health management techniques"
+    },
+    {
+      "id": 2,
+      "title": "Feed Formulation Seminar",
+      "date": "2025-08-22",
+      "time": "1:00 PM - 3:30 PM",
+      "location": "Virtual",
+      "description": "Advanced techniques for optimal feed efficiency"
+    }
+
+  ]
+}
