@@ -23,8 +23,8 @@ const NavbarItems = ({ isMobile = false, onClickItem, isDashboardRoute = false }
             className={({ isActive }) =>
               `block py-2.5 px-4 rounded-lg font-medium text-base transition ${
                 isActive
-                  ? 'text-teal-600 bg-teal-50 font-semibold'
-                  : 'text-gray-600 hover:text-teal-600 hover:bg-teal-50/50'
+                  ? 'text-[#de0f3f] bg-red-50 font-semibold'
+                  : 'text-gray-600 hover:text-[#de0f3f] hover:bg-red-50/50'
               }`
             }
           >
@@ -49,8 +49,8 @@ const NavbarItems = ({ isMobile = false, onClickItem, isDashboardRoute = false }
                   ? 'text-white bg-slate-800'
                   : 'text-slate-300 hover:text-white hover:bg-slate-800/50'
                 : isActive
-                  ? 'text-teal-600 bg-teal-50'
-                  : 'text-gray-600 hover:text-teal-600 hover:bg-gray-100/50'
+                  ? 'text-[#de0f3f] bg-red-50'
+                  : 'text-gray-600 hover:text-[#de0f3f] hover:bg-red-50/50'
             }`
           }
         >

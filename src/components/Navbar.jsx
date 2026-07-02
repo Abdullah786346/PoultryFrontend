@@ -74,7 +74,7 @@ const Navbar = () => {
               {!isDashboardRoute && (
                 <button 
                   onClick={() => navigate('/dashboard')}
-                  className="text-sm font-semibold text-teal-600 hover:underline"
+                  className="text-sm font-semibold text-[#de0f3f] hover:underline"
                 >
                   Dashboard
                 </button>
@@ -85,13 +85,13 @@ const Navbar = () => {
             <div className="flex items-center space-x-3">
               <button
                 onClick={() => navigate('/login')}
-                className="bg-[#009688] hover:bg-teal-700 text-white font-semibold py-2 px-5 rounded-lg transition text-sm shadow-sm"
+                className="bg-[#de0f3f] hover:bg-red-700 text-white font-semibold py-2 px-5 rounded-lg transition text-sm shadow-sm"
               >
                 Login
               </button>
               <button
                 onClick={() => navigate('/signup')}
-                className="border border-[#009688] text-[#009688] hover:bg-teal-50 font-semibold py-2 px-5 rounded-lg transition text-sm"
+                className="border border-[#de0f3f] text-[#de0f3f] hover:bg-red-50 font-semibold py-2 px-5 rounded-lg transition text-sm"
               >
                 Sign Up
               </button>
@@ -127,8 +127,8 @@ const Navbar = () => {
               </div>
             ) : (
               <>
-                <button onClick={() => { navigate('/login'); setIsMenuOpen(false); }} className="w-full bg-[#009688] text-white font-semibold py-2.5 px-4 rounded-lg text-center text-sm">Login</button>
-                <button onClick={() => { navigate('/signup'); setIsMenuOpen(false); }} className="w-full border border-[#009688] text-[#009688] font-semibold py-2.5 px-4 rounded-lg text-center text-sm">Sign Up</button>
+                <button onClick={() => { navigate('/login'); setIsMenuOpen(false); }} className="w-full bg-[#de0f3f] hover:bg-red-700 text-white font-semibold py-2.5 px-4 rounded-lg text-center text-sm">Login</button>
+                <button onClick={() => { navigate('/signup'); setIsMenuOpen(false); }} className="w-full border border-[#de0f3f] text-[#de0f3f] hover:bg-red-50 font-semibold py-2.5 px-4 rounded-lg text-center text-sm">Sign Up</button>
               </>
             )}
           </div>
