@@ -7,7 +7,7 @@ const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const navigate = useNavigate();
   const location = useLocation();
-  const { currentUser, logout } = useAuth(); // Agat logout function context me hai toh usey nikal lein
+  const { currentUser } = useAuth(); // Agat logout function context me hai toh usey nikal lein
 
   const isDashboardRoute = location.pathname.startsWith('/dashboard') || location.pathname.startsWith('/admin');
   
