@@ -19,6 +19,7 @@ import MembershipPage from './components/pages/MembershipPage';
 import EventsPage from './components/pages/EventsPage';
 import ResourcesPage from './components/pages/ResourcesPage';
 import ContactPage from './components/pages/ContactPage';
+import Chatbot from './components/Chatbot';
 
 function App() {
   return (
@@ -74,6 +75,7 @@ function App() {
               }
             />
           </Routes>
+          <Chatbot />
         </div>
       </AuthProvider>
     </Router>

@@ -19,7 +19,7 @@ const Hero = () => {
   }, [images.length]);
 
   return (
-    <div className="relative w-full overflow-hidden bg-black h-screen min-h-[500px] max-h-[9000px]">
+    <div className="relative w-full overflow-hidden bg-black h-screen min-h-[500px] max-h-[900px]">
       {/* Image Slides */}
       <div className="absolute inset-0">
         {images.map((image, index) => (
